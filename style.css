@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #FF5500;
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 0;
+  color: #fff;
+}
+
+p {
+  display: inline;
+  margin: 0 20px;
+  padding: 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  float: left;
+}
+
+input, select {
+  background-color: #f2f2f2;
+  height: 23px;
+  color: #004e98;
+  border-radius: 5px;
+  border-style: none;
+}
+
+select {
+  margin: 10px 20px;
+}
+
+svg {
+  background-color: #87A510;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.widget {
+  width: 24%;
+  margin: 3%;
+}
+
+.thermo-Div {
+  margin-top: 20px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding: 4%;
+  background-color: #0A608A;
+  width: 60%;
+  margin: auto;
+  border-radius: 20px;
+  max-width: 550px;
+}
+
+form p {
+  float: none;
+}
+
+body {
+  background-color: #123958;
+}
+
+.tempInput {
+  display: none;
+}
