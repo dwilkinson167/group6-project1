@@ -12,7 +12,7 @@
   <body>
     <h1>Temperature Converter</h1>
     <form class="" action="index.php" method="post">
-      <p>Temperature</p><input type="text" name="inputTemp" value="<?php $error1; ?>"/>
+      <p>Temperature</p><input type="text" name="inputTemp" value="<?=$error1?>" autofocus="" />
       <select name="scale">
         <option value="Fahrenheit">Fahrenheit</option>
         <option value="Celsius">Celsius</option>

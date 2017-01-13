@@ -23,7 +23,7 @@ if (isset($_POST["inputTemp"])){
             $fah=number_format($cFahrenheit,2);
             $cKelvin=$value+273.15;
             $kel=number_format($cKelvin,2);
-            $cel=$value;
+            $cel=number_format($value,2);
 
 
             return $fah . $cel . $kel;
@@ -34,20 +34,23 @@ if (isset($_POST["inputTemp"])){
             $fah=number_format($kFahrenheit,2);
             $kCelcius= $value-273.15;
             $cel=number_format($kCelcius,2);
-            $kel=$value;
+            $kel=number_format($value,2);
 
             return $fah . $cel . $kel;
           }
 
       }else{
-        return $error1 = 'Enter a valid number';
 
-        //$error2 "<br><a href=" . $_SERVER['PHP_SELF'] . ">Reset degrees</a>";
+        $error1 = 'Whaaat did you do!?';
+        $fah = '00.00';
+        $cel = '00.00';
+        $kel = '000.00';
+        return $error1 . $fah . $cel . $kel;
       }
 
 }else{
 
-  $error = '';
+  $error1 = '';
   $fah = '00.00';
   $cel = '00.00';
   $kel = '000.00';
