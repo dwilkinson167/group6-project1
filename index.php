@@ -1,3 +1,4 @@
+<?php include('group.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,8 +12,8 @@
   </head>
   <body>
     <h1>Temperature Converter</h1>
-    <form class="" action="index.html" method="post">
-      <p>Temperature</p><input type="text" name="inputTemp" />
+    <form class="" action="index.php" method="post">
+      <p>Temperature</p><input type="text" name="inputTemp" value="<?=$error1?>"/>
       <select name="tempScale">
         <option value="Fah">Fahrenheit</option>
         <option value="Cel">Celsius</option>
@@ -25,21 +26,21 @@
     <div class="widget">
     <h2>Fahrenheit</h2>
       <div id="thermo-f" class="thermo-Div">
-        <p class="tempValue">65˚</p> <!-- PHP Tag Fahrenheit HERE -->
+        <p class="tempValue"><?=$fahrenheit?>˚</p> <!-- PHP Tag Fahrenheit HERE -->
       </div>
     </div>
 
     <div class="widget">
     <h2>Celsius</h2>
       <div id="thermo-c" class="thermo-Div">
-        <p class="tempValue">18˚</p> <!-- PHP Tag Celsius HERE -->
+        <p class="tempValue"><?=$celsius?>˚</p> <!-- PHP Tag Celsius HERE -->
       </div>
     </div>
 
     <div class="widget">
     <h2>Kelvin</h2>
       <div id="thermo-k" class="thermo-Div">
-        <p class="tempValue">291˚</p> <!-- PHP Tag Fahrenheit HERE -->
+        <p class="tempValue"><?=$kelvin?>˚</p> <!-- PHP Tag Kelvin HERE -->
       </div>
     </div>
 

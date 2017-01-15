@@ -46,6 +46,7 @@ $convertedTempTwo = 0;
 $tempLabelOne = "nuthin";
 $tempLabelTwo = "nuthin";
 
+
 if(isset($_POST["submit"]))
 {//show data
     $radio = (isset($_POST['inputFormat']) ? $_POST['inputFormat'] : "");
@@ -60,7 +61,7 @@ else
 {//show form
     echo 
     '
-    <form method="post" action="' . THIS_PAGE . '">
+    <form method="post" action="index.php">
     Enter a temperature -  <input type="text" name ="Temperature" /><br />
     <input type="radio" name="inputFormat" value="Fahrenheit" /> Fahrenheit <br />
     <input type="radio" name="inputFormat" value="Celsius" /> Celsius <br />
