@@ -25,21 +25,21 @@
     <div class="widget">
     <h2>Fahrenheit</h2>
       <div id="thermo-f" class="thermo-Div">
-        <p class="tempValue"><?=$fah?>˚</p> <!-- PHP Tag Fahrenheit HERE -->
+        <p class="tempValue"><?=$fah?>˚F</p> <!-- PHP Tag Fahrenheit HERE -->
       </div>
     </div>
 
     <div class="widget">
     <h2>Celsius</h2>
       <div id="thermo-c" class="thermo-Div">
-        <p class="tempValue"><?=$cel?>˚</p> <!-- PHP Tag Celsius HERE -->
+        <p class="tempValue"><?=$cel?>˚C</p> <!-- PHP Tag Celsius HERE -->
       </div>
     </div>
 
     <div class="widget">
     <h2>Kelvin</h2>
       <div id="thermo-k" class="thermo-Div">
-        <p class="tempValue"><?=$kel?>˚</p> <!-- PHP Tag Fahrenheit HERE -->
+        <p class="tempValue"><?=$kel?>K</p> <!-- PHP Tag Fahrenheit HERE -->
       </div>
     </div>
 
@@ -47,5 +47,6 @@
 
 
 <script src="thermometer.js" charset="utf-8"></script>
+<footer><a href="https://docs.google.com/document/d/1bHBlHIHJbhgBaWWtlshjGLsRbElNZOSOZSEwT9GX-us/edit">Staging Area</a></footer>
   </body>
 </html>
