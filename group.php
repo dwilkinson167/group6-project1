@@ -41,7 +41,7 @@ if (isset($_POST["inputTemp"])){
 
       }else{
 
-        $error1 = 'Whaaat did you do!?';
+        $error1 = 'Enter valid number';
         $fah = '00.00';
         $cel = '00.00';
         $kel = '000.00';
