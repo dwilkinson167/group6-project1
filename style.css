@@ -23,6 +23,10 @@ p {
   float: left;
 }
 
+footer a {
+  color: #fff;
+}
+
 input, select {
   background-color: #f2f2f2;
   height: 23px;
